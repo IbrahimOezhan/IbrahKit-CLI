@@ -15,7 +15,7 @@ namespace IbrahKit_CLI
 
         private const string COMMAND_NULL_ERROR = "Fatal Error: Command is null";
 
-        public void Run(string[] args) 
+        public void Run(string[] args)  
         {
             string result = string.Empty;
 
