@@ -1,0 +1,42 @@
+### YamlMime:TableOfContent
+items:
+- uid: IbrahKit_CLI
+  name: IbrahKit_CLI
+  type: Namespace
+  items:
+  - uid: IbrahKit_CLI.CLI
+    name: CLI
+    type: Class
+  - uid: IbrahKit_CLI.CommandBase
+    name: CommandBase
+    type: Class
+  - uid: IbrahKit_CLI.Command`2
+    name: Command<T, S>
+    type: Class
+  - uid: IbrahKit_CLI.Context
+    name: Context
+    type: Class
+- uid: IbrahKit_CLI.Exceptions
+  name: IbrahKit_CLI.Exceptions
+  type: Namespace
+  items:
+  - uid: IbrahKit_CLI.Exceptions.ArgumentParsingException
+    name: ArgumentParsingException
+    type: Class
+  - uid: IbrahKit_CLI.Exceptions.CommandExecutionException
+    name: CommandExecutionException
+    type: Class
+- uid: IbrahKit_CLI.Params
+  name: IbrahKit_CLI.Params
+  type: Namespace
+  items:
+  - uid: IbrahKit_CLI.Params.Argument
+    name: Argument
+    type: Class
+  - uid: IbrahKit_CLI.Params.Flag
+    name: Flag
+    type: Class
+  - uid: IbrahKit_CLI.Params.Param
+    name: Param
+    type: Class
+memberLayout: SamePage

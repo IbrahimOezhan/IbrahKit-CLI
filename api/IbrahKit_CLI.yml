@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: IbrahKit_CLI
+  commentId: N:IbrahKit_CLI
+  id: IbrahKit_CLI
+  children:
+  - IbrahKit_CLI.CLI
+  - IbrahKit_CLI.CommandBase
+  - IbrahKit_CLI.Command`2
+  - IbrahKit_CLI.Context
+  langs:
+  - csharp
+  - vb
+  name: IbrahKit_CLI
+  nameWithType: IbrahKit_CLI
+  fullName: IbrahKit_CLI
+  type: Namespace
+  assemblies:
+  - IbrahKit-CLI
+references:
+- uid: IbrahKit_CLI.CLI
+  commentId: T:IbrahKit_CLI.CLI
+  href: IbrahKit_CLI.CLI.html
+  name: CLI
+  nameWithType: CLI
+  fullName: IbrahKit_CLI.CLI
+- uid: IbrahKit_CLI.Command`2
+  commentId: T:IbrahKit_CLI.Command`2
+  href: IbrahKit_CLI.Command-2.html
+  name: Command<T, S>
+  nameWithType: Command<T, S>
+  fullName: IbrahKit_CLI.Command<T, S>
+  nameWithType.vb: Command(Of T, S)
+  fullName.vb: IbrahKit_CLI.Command(Of T, S)
+  name.vb: Command(Of T, S)
+  spec.csharp:
+  - uid: IbrahKit_CLI.Command`2
+    name: Command
+    href: IbrahKit_CLI.Command-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: S
+  - name: '>'
+  spec.vb:
+  - uid: IbrahKit_CLI.Command`2
+    name: Command
+    href: IbrahKit_CLI.Command-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: S
+  - name: )
+- uid: IbrahKit_CLI.CommandBase
+  commentId: T:IbrahKit_CLI.CommandBase
+  parent: IbrahKit_CLI
+  href: IbrahKit_CLI.CommandBase.html
+  name: CommandBase
+  nameWithType: CommandBase
+  fullName: IbrahKit_CLI.CommandBase
+- uid: IbrahKit_CLI.Context
+  commentId: T:IbrahKit_CLI.Context
+  parent: IbrahKit_CLI
+  href: IbrahKit_CLI.Context.html
+  name: Context
+  nameWithType: Context
+  fullName: IbrahKit_CLI.Context
+- uid: IbrahKit_CLI
+  commentId: N:IbrahKit_CLI
+  href: IbrahKit_CLI.html
+  name: IbrahKit_CLI
+  nameWithType: IbrahKit_CLI
+  fullName: IbrahKit_CLI

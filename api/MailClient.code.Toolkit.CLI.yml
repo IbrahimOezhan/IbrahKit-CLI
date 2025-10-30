@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: MailClient.code.Toolkit.CLI
+  commentId: N:MailClient.code.Toolkit.CLI
+  id: MailClient.code.Toolkit.CLI
+  children:
+  - MailClient.code.Toolkit.CLI.CLI
+  - MailClient.code.Toolkit.CLI.CommandBase
+  - MailClient.code.Toolkit.CLI.Command`2
+  - MailClient.code.Toolkit.CLI.Context
+  langs:
+  - csharp
+  - vb
+  name: MailClient.code.Toolkit.CLI
+  nameWithType: MailClient.code.Toolkit.CLI
+  fullName: MailClient.code.Toolkit.CLI
+  type: Namespace
+  assemblies:
+  - IbrahKit-CLI
+references:
+- uid: MailClient.code.Toolkit.CLI.CLI
+  commentId: T:MailClient.code.Toolkit.CLI.CLI
+  href: MailClient.code.Toolkit.CLI.CLI.html
+  name: CLI
+  nameWithType: CLI
+  fullName: MailClient.code.Toolkit.CLI.CLI
+- uid: MailClient.code.Toolkit.CLI.Command`2
+  commentId: T:MailClient.code.Toolkit.CLI.Command`2
+  href: MailClient.code.Toolkit.CLI.Command-2.html
+  name: Command<T, S>
+  nameWithType: Command<T, S>
+  fullName: MailClient.code.Toolkit.CLI.Command<T, S>
+  nameWithType.vb: Command(Of T, S)
+  fullName.vb: MailClient.code.Toolkit.CLI.Command(Of T, S)
+  name.vb: Command(Of T, S)
+  spec.csharp:
+  - uid: MailClient.code.Toolkit.CLI.Command`2
+    name: Command
+    href: MailClient.code.Toolkit.CLI.Command-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: S
+  - name: '>'
+  spec.vb:
+  - uid: MailClient.code.Toolkit.CLI.Command`2
+    name: Command
+    href: MailClient.code.Toolkit.CLI.Command-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: S
+  - name: )
+- uid: MailClient.code.Toolkit.CLI.CommandBase
+  commentId: T:MailClient.code.Toolkit.CLI.CommandBase
+  parent: MailClient.code.Toolkit.CLI
+  href: MailClient.code.Toolkit.CLI.CommandBase.html
+  name: CommandBase
+  nameWithType: CommandBase
+  fullName: MailClient.code.Toolkit.CLI.CommandBase
+- uid: MailClient.code.Toolkit.CLI.Context
+  commentId: T:MailClient.code.Toolkit.CLI.Context
+  parent: MailClient.code.Toolkit.CLI
+  href: MailClient.code.Toolkit.CLI.Context.html
+  name: Context
+  nameWithType: Context
+  fullName: MailClient.code.Toolkit.CLI.Context
+- uid: MailClient.code.Toolkit.CLI
+  commentId: N:MailClient.code.Toolkit.CLI
+  href: MailClient.html
+  name: MailClient.code.Toolkit.CLI
+  nameWithType: MailClient.code.Toolkit.CLI
+  fullName: MailClient.code.Toolkit.CLI
+  spec.csharp:
+  - uid: MailClient
+    name: MailClient
+    href: MailClient.html
+  - name: .
+  - uid: MailClient.code
+    name: code
+    href: MailClient.code.html
+  - name: .
+  - uid: MailClient.code.Toolkit
+    name: Toolkit
+    href: MailClient.code.Toolkit.html
+  - name: .
+  - uid: MailClient.code.Toolkit.CLI
+    name: CLI
+    href: MailClient.code.Toolkit.CLI.html
+  spec.vb:
+  - uid: MailClient
+    name: MailClient
+    href: MailClient.html
+  - name: .
+  - uid: MailClient.code
+    name: code
+    href: MailClient.code.html
+  - name: .
+  - uid: MailClient.code.Toolkit
+    name: Toolkit
+    href: MailClient.code.Toolkit.html
+  - name: .
+  - uid: MailClient.code.Toolkit.CLI
+    name: CLI
+    href: MailClient.code.Toolkit.CLI.html

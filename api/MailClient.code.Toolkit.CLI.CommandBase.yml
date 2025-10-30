@@ -1,0 +1,721 @@
+### YamlMime:ManagedReference
+items:
+- uid: MailClient.code.Toolkit.CLI.CommandBase
+  commentId: T:MailClient.code.Toolkit.CLI.CommandBase
+  id: CommandBase
+  parent: MailClient.code.Toolkit.CLI
+  children:
+  - MailClient.code.Toolkit.CLI.CommandBase.ARG_PROCESS_SUCCES
+  - MailClient.code.Toolkit.CLI.CommandBase.Execute
+  - MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands
+  - MailClient.code.Toolkit.CLI.CommandBase.GetData
+  - MailClient.code.Toolkit.CLI.CommandBase.Parse
+  - MailClient.code.Toolkit.CLI.CommandBase.ToString
+  langs:
+  - csharp
+  - vb
+  name: CommandBase
+  nameWithType: CommandBase
+  fullName: MailClient.code.Toolkit.CLI.CommandBase
+  type: Class
+  source:
+    id: CommandBase
+    path: E:\VS\Projects\IbrahKit-CLI\CommandBase.cs
+    startLine: 5
+  assemblies:
+  - IbrahKit-CLI
+  namespace: MailClient.code.Toolkit.CLI
+  syntax:
+    content: public abstract class CommandBase
+    content.vb: Public MustInherit Class CommandBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - MailClient.code.Toolkit.CLI.Command`2
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: MailClient.code.Toolkit.CLI.CommandBase.ARG_PROCESS_SUCCES
+  commentId: F:MailClient.code.Toolkit.CLI.CommandBase.ARG_PROCESS_SUCCES
+  id: ARG_PROCESS_SUCCES
+  parent: MailClient.code.Toolkit.CLI.CommandBase
+  langs:
+  - csharp
+  - vb
+  name: ARG_PROCESS_SUCCES
+  nameWithType: CommandBase.ARG_PROCESS_SUCCES
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.ARG_PROCESS_SUCCES
+  type: Field
+  source:
+    id: ARG_PROCESS_SUCCES
+    path: E:\VS\Projects\IbrahKit-CLI\CommandBase.cs
+    startLine: 7
+  assemblies:
+  - IbrahKit-CLI
+  namespace: MailClient.code.Toolkit.CLI
+  syntax:
+    content: public const string ARG_PROCESS_SUCCES = ""
+    return:
+      type: System.String
+    content.vb: Public Const ARG_PROCESS_SUCCES As String = ""
+- uid: MailClient.code.Toolkit.CLI.CommandBase.Execute
+  commentId: M:MailClient.code.Toolkit.CLI.CommandBase.Execute
+  id: Execute
+  parent: MailClient.code.Toolkit.CLI.CommandBase
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: CommandBase.Execute()
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.Execute()
+  type: Method
+  source:
+    id: Execute
+    path: E:\VS\Projects\IbrahKit-CLI\CommandBase.cs
+    startLine: 10
+  assemblies:
+  - IbrahKit-CLI
+  namespace: MailClient.code.Toolkit.CLI
+  syntax:
+    content: public abstract string Execute()
+    return:
+      type: System.String
+    content.vb: Public MustOverride Function Execute() As String
+  overload: MailClient.code.Toolkit.CLI.CommandBase.Execute*
+- uid: MailClient.code.Toolkit.CLI.CommandBase.Parse
+  commentId: M:MailClient.code.Toolkit.CLI.CommandBase.Parse
+  id: Parse
+  parent: MailClient.code.Toolkit.CLI.CommandBase
+  langs:
+  - csharp
+  - vb
+  name: Parse()
+  nameWithType: CommandBase.Parse()
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.Parse()
+  type: Method
+  source:
+    id: Parse
+    path: E:\VS\Projects\IbrahKit-CLI\CommandBase.cs
+    startLine: 13
+  assemblies:
+  - IbrahKit-CLI
+  namespace: MailClient.code.Toolkit.CLI
+  syntax:
+    content: public abstract string Parse()
+    return:
+      type: System.String
+    content.vb: Public MustOverride Function Parse() As String
+  overload: MailClient.code.Toolkit.CLI.CommandBase.Parse*
+- uid: MailClient.code.Toolkit.CLI.CommandBase.GetData
+  commentId: M:MailClient.code.Toolkit.CLI.CommandBase.GetData
+  id: GetData
+  parent: MailClient.code.Toolkit.CLI.CommandBase
+  langs:
+  - csharp
+  - vb
+  name: GetData()
+  nameWithType: CommandBase.GetData()
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.GetData()
+  type: Method
+  source:
+    id: GetData
+    path: E:\VS\Projects\IbrahKit-CLI\CommandBase.cs
+    startLine: 16
+  assemblies:
+  - IbrahKit-CLI
+  namespace: MailClient.code.Toolkit.CLI
+  syntax:
+    content: public abstract (string name, string desc, List<Argument> args) GetData()
+    return:
+      type: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}
+    content.vb: Public MustOverride Function GetData() As (name As String, desc As String, args As List(Of Argument))
+  overload: MailClient.code.Toolkit.CLI.CommandBase.GetData*
+- uid: MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands
+  commentId: M:MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands
+  id: GetAllCommands
+  parent: MailClient.code.Toolkit.CLI.CommandBase
+  langs:
+  - csharp
+  - vb
+  name: GetAllCommands()
+  nameWithType: CommandBase.GetAllCommands()
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands()
+  type: Method
+  source:
+    id: GetAllCommands
+    path: E:\VS\Projects\IbrahKit-CLI\CommandBase.cs
+    startLine: 18
+  assemblies:
+  - IbrahKit-CLI
+  namespace: MailClient.code.Toolkit.CLI
+  syntax:
+    content: public static IEnumerable<Type> GetAllCommands()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Type}
+    content.vb: Public Shared Function GetAllCommands() As IEnumerable(Of Type)
+  overload: MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands*
+- uid: MailClient.code.Toolkit.CLI.CommandBase.ToString
+  commentId: M:MailClient.code.Toolkit.CLI.CommandBase.ToString
+  id: ToString
+  parent: MailClient.code.Toolkit.CLI.CommandBase
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CommandBase.ToString()
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: E:\VS\Projects\IbrahKit-CLI\CommandBase.cs
+    startLine: 23
+  assemblies:
+  - IbrahKit-CLI
+  namespace: MailClient.code.Toolkit.CLI
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: MailClient.code.Toolkit.CLI.CommandBase.ToString*
+references:
+- uid: MailClient.code.Toolkit.CLI
+  commentId: N:MailClient.code.Toolkit.CLI
+  href: MailClient.html
+  name: MailClient.code.Toolkit.CLI
+  nameWithType: MailClient.code.Toolkit.CLI
+  fullName: MailClient.code.Toolkit.CLI
+  spec.csharp:
+  - uid: MailClient
+    name: MailClient
+    href: MailClient.html
+  - name: .
+  - uid: MailClient.code
+    name: code
+    href: MailClient.code.html
+  - name: .
+  - uid: MailClient.code.Toolkit
+    name: Toolkit
+    href: MailClient.code.Toolkit.html
+  - name: .
+  - uid: MailClient.code.Toolkit.CLI
+    name: CLI
+    href: MailClient.code.Toolkit.CLI.html
+  spec.vb:
+  - uid: MailClient
+    name: MailClient
+    href: MailClient.html
+  - name: .
+  - uid: MailClient.code
+    name: code
+    href: MailClient.code.html
+  - name: .
+  - uid: MailClient.code.Toolkit
+    name: Toolkit
+    href: MailClient.code.Toolkit.html
+  - name: .
+  - uid: MailClient.code.Toolkit.CLI
+    name: CLI
+    href: MailClient.code.Toolkit.CLI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MailClient.code.Toolkit.CLI.CommandBase.Execute*
+  commentId: Overload:MailClient.code.Toolkit.CLI.CommandBase.Execute
+  href: MailClient.code.Toolkit.CLI.CommandBase.html#MailClient_code_Toolkit_CLI_CommandBase_Execute
+  name: Execute
+  nameWithType: CommandBase.Execute
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.Execute
+- uid: MailClient.code.Toolkit.CLI.CommandBase.Parse*
+  commentId: Overload:MailClient.code.Toolkit.CLI.CommandBase.Parse
+  href: MailClient.code.Toolkit.CLI.CommandBase.html#MailClient_code_Toolkit_CLI_CommandBase_Parse
+  name: Parse
+  nameWithType: CommandBase.Parse
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.Parse
+- uid: MailClient.code.Toolkit.CLI.CommandBase.GetData*
+  commentId: Overload:MailClient.code.Toolkit.CLI.CommandBase.GetData
+  href: MailClient.code.Toolkit.CLI.CommandBase.html#MailClient_code_Toolkit_CLI_CommandBase_GetData
+  name: GetData
+  nameWithType: CommandBase.GetData
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.GetData
+- uid: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}
+  commentId: T:System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}
+  parent: System
+  definition: System.ValueTuple`3
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string name, string desc, List<Argument> args)
+  nameWithType: (string name, string desc, List<Argument> args)
+  fullName: (string name, string desc, System.Collections.Generic.List<IbrahKit_CLI.Params.Argument> args)
+  nameWithType.vb: (name As String, desc As String, args As List(Of Argument))
+  fullName.vb: (name As String, desc As String, args As System.Collections.Generic.List(Of IbrahKit_CLI.Params.Argument))
+  name.vb: (name As String, desc As String, args As List(Of Argument))
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}.name
+    name: name
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.collections.generic.list-ibrahkit_cli.params.argument--.name
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}.desc
+    name: desc
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.collections.generic.list-ibrahkit_cli.params.argument--.desc
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: IbrahKit_CLI.Params.Argument
+    name: Argument
+    href: IbrahKit_CLI.Params.Argument.html
+  - name: '>'
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}.args
+    name: args
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.collections.generic.list-ibrahkit_cli.params.argument--.args
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}.name
+    name: name
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.collections.generic.list-ibrahkit_cli.params.argument--.name
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}.desc
+    name: desc
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.collections.generic.list-ibrahkit_cli.params.argument--.desc
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.String,System.String,System.Collections.Generic.List{IbrahKit_CLI.Params.Argument}}.args
+    name: args
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string,system.collections.generic.list-ibrahkit_cli.params.argument--.args
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IbrahKit_CLI.Params.Argument
+    name: Argument
+    href: IbrahKit_CLI.Params.Argument.html
+  - name: )
+  - name: )
+- uid: System.ValueTuple`3
+  commentId: T:System.ValueTuple`3
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands*
+  commentId: Overload:MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands
+  href: MailClient.code.Toolkit.CLI.CommandBase.html#MailClient_code_Toolkit_CLI_CommandBase_GetAllCommands
+  name: GetAllCommands
+  nameWithType: CommandBase.GetAllCommands
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.GetAllCommands
+- uid: System.Collections.Generic.IEnumerable{System.Type}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Type>
+  nameWithType: IEnumerable<Type>
+  fullName: System.Collections.Generic.IEnumerable<System.Type>
+  nameWithType.vb: IEnumerable(Of Type)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Type)
+  name.vb: IEnumerable(Of Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: MailClient.code.Toolkit.CLI.CommandBase.ToString*
+  commentId: Overload:MailClient.code.Toolkit.CLI.CommandBase.ToString
+  href: MailClient.code.Toolkit.CLI.CommandBase.html#MailClient_code_Toolkit_CLI_CommandBase_ToString
+  name: ToString
+  nameWithType: CommandBase.ToString
+  fullName: MailClient.code.Toolkit.CLI.CommandBase.ToString

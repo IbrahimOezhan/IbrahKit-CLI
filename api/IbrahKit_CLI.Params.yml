@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: IbrahKit_CLI.Params
+  commentId: N:IbrahKit_CLI.Params
+  id: IbrahKit_CLI.Params
+  children:
+  - IbrahKit_CLI.Params.Argument
+  - IbrahKit_CLI.Params.Flag
+  - IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: IbrahKit_CLI.Params
+  nameWithType: IbrahKit_CLI.Params
+  fullName: IbrahKit_CLI.Params
+  type: Namespace
+  assemblies:
+  - IbrahKit-CLI
+references:
+- uid: IbrahKit_CLI.Params.Argument
+  commentId: T:IbrahKit_CLI.Params.Argument
+  href: IbrahKit_CLI.Params.Argument.html
+  name: Argument
+  nameWithType: Argument
+  fullName: IbrahKit_CLI.Params.Argument
+- uid: IbrahKit_CLI.Params.Flag
+  commentId: T:IbrahKit_CLI.Params.Flag
+  href: IbrahKit_CLI.Params.Flag.html
+  name: Flag
+  nameWithType: Flag
+  fullName: IbrahKit_CLI.Params.Flag
+- uid: IbrahKit_CLI.Params.Param
+  commentId: T:IbrahKit_CLI.Params.Param
+  parent: IbrahKit_CLI.Params
+  href: IbrahKit_CLI.Params.Param.html
+  name: Param
+  nameWithType: Param
+  fullName: IbrahKit_CLI.Params.Param
+- uid: IbrahKit_CLI.Params
+  commentId: N:IbrahKit_CLI.Params
+  href: IbrahKit_CLI.html
+  name: IbrahKit_CLI.Params
+  nameWithType: IbrahKit_CLI.Params
+  fullName: IbrahKit_CLI.Params
+  spec.csharp:
+  - uid: IbrahKit_CLI
+    name: IbrahKit_CLI
+    href: IbrahKit_CLI.html
+  - name: .
+  - uid: IbrahKit_CLI.Params
+    name: Params
+    href: IbrahKit_CLI.Params.html
+  spec.vb:
+  - uid: IbrahKit_CLI
+    name: IbrahKit_CLI
+    href: IbrahKit_CLI.html
+  - name: .
+  - uid: IbrahKit_CLI.Params
+    name: Params
+    href: IbrahKit_CLI.Params.html

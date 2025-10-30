@@ -1,0 +1,410 @@
+{
+  "source_base_path": "E:/VS/Projects/IbrahKit-CLI",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.CLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.CLI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Command-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Command-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Command<T, S>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.CommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.CommandBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.CommandBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Context.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Context",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Exceptions.ArgumentParsingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Exceptions.ArgumentParsingException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Exceptions.ArgumentParsingException",
+      "Summary": "<p sourcefile=\"api/IbrahKit_CLI.Exceptions.ArgumentParsingException.yml\" sourcestartlinenumber=\"1\">Thrown during the Command.Parse method</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Exceptions.CommandExecutionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Exceptions.CommandExecutionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Exceptions.CommandExecutionException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Params.Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Params.Argument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Params.Argument",
+      "Summary": "<p sourcefile=\"api/IbrahKit_CLI.Params.Argument.yml\" sourcestartlinenumber=\"1\">An extension of param. Provides an additional check if there is another incomming value in the args array</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Params.Flag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Params.Flag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Params.Flag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Params.Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Params.Param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Params.Param",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.Params.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI.Params",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IbrahKit_CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IbrahKit_CLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IbrahKit_CLI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Argument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Argument",
+      "Summary": "<p sourcefile=\"api/MailClient.code.Toolkit.CLI.Argument.yml\" sourcestartlinenumber=\"1\">An extension of param. Provides an additional check if there is another incomming value in the args array</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.CLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.CLI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Command-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Command-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Command<T, S>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.CommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.CommandBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.CommandBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Context.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Context",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException",
+      "Summary": "<p sourcefile=\"api/MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException.yml\" sourcestartlinenumber=\"1\">Thrown during the Command.Parse method</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Flag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Flag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Flag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.Param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI.Param",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MailClient.code.Toolkit.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MailClient.code.Toolkit.CLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MailClient.code.Toolkit.CLI",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

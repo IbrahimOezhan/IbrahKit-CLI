@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: IbrahKit_CLI.Exceptions
+  commentId: N:IbrahKit_CLI.Exceptions
+  id: IbrahKit_CLI.Exceptions
+  children:
+  - IbrahKit_CLI.Exceptions.ArgumentParsingException
+  - IbrahKit_CLI.Exceptions.CommandExecutionException
+  langs:
+  - csharp
+  - vb
+  name: IbrahKit_CLI.Exceptions
+  nameWithType: IbrahKit_CLI.Exceptions
+  fullName: IbrahKit_CLI.Exceptions
+  type: Namespace
+  assemblies:
+  - IbrahKit-CLI
+references:
+- uid: IbrahKit_CLI.Exceptions.ArgumentParsingException
+  commentId: T:IbrahKit_CLI.Exceptions.ArgumentParsingException
+  href: IbrahKit_CLI.Exceptions.ArgumentParsingException.html
+  name: ArgumentParsingException
+  nameWithType: ArgumentParsingException
+  fullName: IbrahKit_CLI.Exceptions.ArgumentParsingException
+- uid: IbrahKit_CLI.Exceptions.CommandExecutionException
+  commentId: T:IbrahKit_CLI.Exceptions.CommandExecutionException
+  href: IbrahKit_CLI.Exceptions.CommandExecutionException.html
+  name: CommandExecutionException
+  nameWithType: CommandExecutionException
+  fullName: IbrahKit_CLI.Exceptions.CommandExecutionException

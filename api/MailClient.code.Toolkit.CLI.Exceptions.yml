@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: MailClient.code.Toolkit.CLI.Exceptions
+  commentId: N:MailClient.code.Toolkit.CLI.Exceptions
+  id: MailClient.code.Toolkit.CLI.Exceptions
+  children:
+  - MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException
+  - MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException
+  langs:
+  - csharp
+  - vb
+  name: MailClient.code.Toolkit.CLI.Exceptions
+  nameWithType: MailClient.code.Toolkit.CLI.Exceptions
+  fullName: MailClient.code.Toolkit.CLI.Exceptions
+  type: Namespace
+  assemblies:
+  - IbrahKit-CLI
+references:
+- uid: MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException
+  commentId: T:MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException
+  href: MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException.html
+  name: ArgumentParsingException
+  nameWithType: ArgumentParsingException
+  fullName: MailClient.code.Toolkit.CLI.Exceptions.ArgumentParsingException
+- uid: MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException
+  commentId: T:MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException
+  href: MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException.html
+  name: CommandExecutionException
+  nameWithType: CommandExecutionException
+  fullName: MailClient.code.Toolkit.CLI.Exceptions.CommandExecutionException

@@ -1,0 +1,947 @@
+### YamlMime:ManagedReference
+items:
+- uid: IbrahKit_CLI.Params.Param
+  commentId: T:IbrahKit_CLI.Params.Param
+  id: Param
+  parent: IbrahKit_CLI.Params
+  children:
+  - IbrahKit_CLI.Params.Param.#ctor(System.Func{System.String[],System.String},System.String,System.String[])
+  - IbrahKit_CLI.Params.Param.GetClosestParam(System.String,System.Collections.Generic.IEnumerable{IbrahKit_CLI.Params.Param})
+  - IbrahKit_CLI.Params.Param.GetName(System.Int32)
+  - IbrahKit_CLI.Params.Param.Pass``2(System.String[],IbrahKit_CLI.Context)
+  - IbrahKit_CLI.Params.Param.Pass``2(System.String[],IbrahKit_CLI.Context,System.Int32)
+  - IbrahKit_CLI.Params.Param.Process(System.String[])
+  - IbrahKit_CLI.Params.Param.ToString
+  - IbrahKit_CLI.Params.Param.TryCompare(System.String,System.Int32@,System.Int32@)
+  - IbrahKit_CLI.Params.Param.description
+  - IbrahKit_CLI.Params.Param.function
+  - IbrahKit_CLI.Params.Param.names
+  langs:
+  - csharp
+  - vb
+  name: Param
+  nameWithType: Param
+  fullName: IbrahKit_CLI.Params.Param
+  type: Class
+  source:
+    id: Param
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 2
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: public abstract class Param
+    content.vb: Public MustInherit Class Param
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - IbrahKit_CLI.Params.Argument
+  - IbrahKit_CLI.Params.Flag
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: IbrahKit_CLI.Params.Param.names
+  commentId: F:IbrahKit_CLI.Params.Param.names
+  id: names
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: names
+  nameWithType: Param.names
+  fullName: IbrahKit_CLI.Params.Param.names
+  type: Field
+  source:
+    id: names
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 4
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: protected string[] names
+    return:
+      type: System.String[]
+    content.vb: Protected names As String()
+- uid: IbrahKit_CLI.Params.Param.description
+  commentId: F:IbrahKit_CLI.Params.Param.description
+  id: description
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: description
+  nameWithType: Param.description
+  fullName: IbrahKit_CLI.Params.Param.description
+  type: Field
+  source:
+    id: description
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 5
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: protected string description
+    return:
+      type: System.String
+    content.vb: Protected description As String
+- uid: IbrahKit_CLI.Params.Param.function
+  commentId: F:IbrahKit_CLI.Params.Param.function
+  id: function
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: function
+  nameWithType: Param.function
+  fullName: IbrahKit_CLI.Params.Param.function
+  type: Field
+  source:
+    id: function
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 6
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: protected Func<string[], string> function
+    return:
+      type: System.Func{System.String[],System.String}
+    content.vb: Protected [function] As Func(Of String(), String)
+- uid: IbrahKit_CLI.Params.Param.#ctor(System.Func{System.String[],System.String},System.String,System.String[])
+  commentId: M:IbrahKit_CLI.Params.Param.#ctor(System.Func{System.String[],System.String},System.String,System.String[])
+  id: '#ctor(System.Func{System.String[],System.String},System.String,System.String[])'
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: Param(Func<string[], string>, string, params string[])
+  nameWithType: Param.Param(Func<string[], string>, string, params string[])
+  fullName: IbrahKit_CLI.Params.Param.Param(System.Func<string[], string>, string, params string[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 10
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: public Param(Func<string[], string> function, string description, params string[] names)
+    parameters:
+    - id: function
+      type: System.Func{System.String[],System.String}
+    - id: description
+      type: System.String
+    - id: names
+      type: System.String[]
+    content.vb: Public Sub New([function] As Func(Of String(), String), description As String, ParamArray names As String())
+  overload: IbrahKit_CLI.Params.Param.#ctor*
+  nameWithType.vb: Param.New(Func(Of String(), String), String, ParamArray String())
+  fullName.vb: IbrahKit_CLI.Params.Param.New(System.Func(Of String(), String), String, ParamArray String())
+  name.vb: New(Func(Of String(), String), String, ParamArray String())
+- uid: IbrahKit_CLI.Params.Param.GetName(System.Int32)
+  commentId: M:IbrahKit_CLI.Params.Param.GetName(System.Int32)
+  id: GetName(System.Int32)
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: GetName(int)
+  nameWithType: Param.GetName(int)
+  fullName: IbrahKit_CLI.Params.Param.GetName(int)
+  type: Method
+  source:
+    id: GetName
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 39
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: public string GetName(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetName(index As Integer) As String
+  overload: IbrahKit_CLI.Params.Param.GetName*
+  nameWithType.vb: Param.GetName(Integer)
+  fullName.vb: IbrahKit_CLI.Params.Param.GetName(Integer)
+  name.vb: GetName(Integer)
+- uid: IbrahKit_CLI.Params.Param.ToString
+  commentId: M:IbrahKit_CLI.Params.Param.ToString
+  id: ToString
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Param.ToString()
+  fullName: IbrahKit_CLI.Params.Param.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 50
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: IbrahKit_CLI.Params.Param.ToString*
+- uid: IbrahKit_CLI.Params.Param.TryCompare(System.String,System.Int32@,System.Int32@)
+  commentId: M:IbrahKit_CLI.Params.Param.TryCompare(System.String,System.Int32@,System.Int32@)
+  id: TryCompare(System.String,System.Int32@,System.Int32@)
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: TryCompare(string, out int, out int)
+  nameWithType: Param.TryCompare(string, out int, out int)
+  fullName: IbrahKit_CLI.Params.Param.TryCompare(string, out int, out int)
+  type: Method
+  source:
+    id: TryCompare
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 56
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: public bool TryCompare(string input, out int closestValue, out int closestIndex)
+    parameters:
+    - id: input
+      type: System.String
+    - id: closestValue
+      type: System.Int32
+    - id: closestIndex
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryCompare(input As String, closestValue As Integer, closestIndex As Integer) As Boolean
+  overload: IbrahKit_CLI.Params.Param.TryCompare*
+  nameWithType.vb: Param.TryCompare(String, Integer, Integer)
+  fullName.vb: IbrahKit_CLI.Params.Param.TryCompare(String, Integer, Integer)
+  name.vb: TryCompare(String, Integer, Integer)
+- uid: IbrahKit_CLI.Params.Param.Process(System.String[])
+  commentId: M:IbrahKit_CLI.Params.Param.Process(System.String[])
+  id: Process(System.String[])
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: Process(string[])
+  nameWithType: Param.Process(string[])
+  fullName: IbrahKit_CLI.Params.Param.Process(string[])
+  type: Method
+  source:
+    id: Process
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 87
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  summary: Proccesses the passed input
+  example: []
+  syntax:
+    content: public virtual string Process(string[] args)
+    parameters:
+    - id: args
+      type: System.String[]
+      description: The remaining unproccessed arguments
+    return:
+      type: System.String
+      description: A string value. Empty Means success and non-empty means failiure
+    content.vb: Public Overridable Function Process(args As String()) As String
+  overload: IbrahKit_CLI.Params.Param.Process*
+  nameWithType.vb: Param.Process(String())
+  fullName.vb: IbrahKit_CLI.Params.Param.Process(String())
+  name.vb: Process(String())
+- uid: IbrahKit_CLI.Params.Param.Pass``2(System.String[],IbrahKit_CLI.Context)
+  commentId: M:IbrahKit_CLI.Params.Param.Pass``2(System.String[],IbrahKit_CLI.Context)
+  id: Pass``2(System.String[],IbrahKit_CLI.Context)
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: Pass<T, S>(string[], Context)
+  nameWithType: Param.Pass<T, S>(string[], Context)
+  fullName: IbrahKit_CLI.Params.Param.Pass<T, S>(string[], IbrahKit_CLI.Context)
+  type: Method
+  source:
+    id: Pass
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 100
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  summary: Passes the remaining arguments to a new instance of a
+  example: []
+  syntax:
+    content: 'public abstract string Pass<T, S>(string[] args, Context cont) where T : Context, new() where S : Command<T, S>'
+    parameters:
+    - id: args
+      type: System.String[]
+      description: ''
+    - id: cont
+      type: IbrahKit_CLI.Context
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    - id: S
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public MustOverride Function Pass(Of T As {Context, New}, S As Command(Of T, S))(args As String(), cont As Context) As String
+  overload: IbrahKit_CLI.Params.Param.Pass*
+  nameWithType.vb: Param.Pass(Of T, S)(String(), Context)
+  fullName.vb: IbrahKit_CLI.Params.Param.Pass(Of T, S)(String(), IbrahKit_CLI.Context)
+  name.vb: Pass(Of T, S)(String(), Context)
+- uid: IbrahKit_CLI.Params.Param.Pass``2(System.String[],IbrahKit_CLI.Context,System.Int32)
+  commentId: M:IbrahKit_CLI.Params.Param.Pass``2(System.String[],IbrahKit_CLI.Context,System.Int32)
+  id: Pass``2(System.String[],IbrahKit_CLI.Context,System.Int32)
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: Pass<S, T>(string[], Context, int)
+  nameWithType: Param.Pass<S, T>(string[], Context, int)
+  fullName: IbrahKit_CLI.Params.Param.Pass<S, T>(string[], IbrahKit_CLI.Context, int)
+  type: Method
+  source:
+    id: Pass
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 102
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  syntax:
+    content: 'protected string Pass<S, T>(string[] args, Context cont, int amountSkip) where S : Command<T, S> where T : Context, new()'
+    parameters:
+    - id: args
+      type: System.String[]
+    - id: cont
+      type: IbrahKit_CLI.Context
+    - id: amountSkip
+      type: System.Int32
+    typeParameters:
+    - id: S
+    - id: T
+    return:
+      type: System.String
+    content.vb: Protected Function Pass(Of S As Command(Of T, S), T As {Context, New})(args As String(), cont As Context, amountSkip As Integer) As String
+  overload: IbrahKit_CLI.Params.Param.Pass*
+  nameWithType.vb: Param.Pass(Of S, T)(String(), Context, Integer)
+  fullName.vb: IbrahKit_CLI.Params.Param.Pass(Of S, T)(String(), IbrahKit_CLI.Context, Integer)
+  name.vb: Pass(Of S, T)(String(), Context, Integer)
+- uid: IbrahKit_CLI.Params.Param.GetClosestParam(System.String,System.Collections.Generic.IEnumerable{IbrahKit_CLI.Params.Param})
+  commentId: M:IbrahKit_CLI.Params.Param.GetClosestParam(System.String,System.Collections.Generic.IEnumerable{IbrahKit_CLI.Params.Param})
+  id: GetClosestParam(System.String,System.Collections.Generic.IEnumerable{IbrahKit_CLI.Params.Param})
+  parent: IbrahKit_CLI.Params.Param
+  langs:
+  - csharp
+  - vb
+  name: GetClosestParam(string, IEnumerable<Param>)
+  nameWithType: Param.GetClosestParam(string, IEnumerable<Param>)
+  fullName: IbrahKit_CLI.Params.Param.GetClosestParam(string, System.Collections.Generic.IEnumerable<IbrahKit_CLI.Params.Param>)
+  type: Method
+  source:
+    id: GetClosestParam
+    path: E:\VS\Projects\IbrahKit-CLI\Params\Param.cs
+    startLine: 124
+  assemblies:
+  - IbrahKit-CLI
+  namespace: IbrahKit_CLI.Params
+  summary: Returns a param with the closest name to what was entered
+  example: []
+  syntax:
+    content: public static string GetClosestParam(string input, IEnumerable<Param> @params)
+    parameters:
+    - id: input
+      type: System.String
+      description: The input to check all params against
+    - id: params
+      type: System.Collections.Generic.IEnumerable{IbrahKit_CLI.Params.Param}
+      description: The params to check the input against
+    return:
+      type: System.String
+      description: The closest Param
+    content.vb: Public Shared Function GetClosestParam(input As String, params As IEnumerable(Of Param)) As String
+  overload: IbrahKit_CLI.Params.Param.GetClosestParam*
+  nameWithType.vb: Param.GetClosestParam(String, IEnumerable(Of Param))
+  fullName.vb: IbrahKit_CLI.Params.Param.GetClosestParam(String, System.Collections.Generic.IEnumerable(Of IbrahKit_CLI.Params.Param))
+  name.vb: GetClosestParam(String, IEnumerable(Of Param))
+references:
+- uid: IbrahKit_CLI.Params
+  commentId: N:IbrahKit_CLI.Params
+  href: IbrahKit_CLI.html
+  name: IbrahKit_CLI.Params
+  nameWithType: IbrahKit_CLI.Params
+  fullName: IbrahKit_CLI.Params
+  spec.csharp:
+  - uid: IbrahKit_CLI
+    name: IbrahKit_CLI
+    href: IbrahKit_CLI.html
+  - name: .
+  - uid: IbrahKit_CLI.Params
+    name: Params
+    href: IbrahKit_CLI.Params.html
+  spec.vb:
+  - uid: IbrahKit_CLI
+    name: IbrahKit_CLI
+    href: IbrahKit_CLI.html
+  - name: .
+  - uid: IbrahKit_CLI.Params
+    name: Params
+    href: IbrahKit_CLI.Params.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Func{System.String[],System.String}
+  commentId: T:System.Func{System.String[],System.String}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<string[], string>
+  nameWithType: Func<string[], string>
+  fullName: System.Func<string[], string>
+  nameWithType.vb: Func(Of String(), String)
+  fullName.vb: System.Func(Of String(), String)
+  name.vb: Func(Of String(), String)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: IbrahKit_CLI.Params.Param.#ctor*
+  commentId: Overload:IbrahKit_CLI.Params.Param.#ctor
+  href: IbrahKit_CLI.Params.Param.html#IbrahKit_CLI_Params_Param__ctor_System_Func_System_String___System_String__System_String_System_String___
+  name: Param
+  nameWithType: Param.Param
+  fullName: IbrahKit_CLI.Params.Param.Param
+  nameWithType.vb: Param.New
+  fullName.vb: IbrahKit_CLI.Params.Param.New
+  name.vb: New
+- uid: IbrahKit_CLI.Params.Param.GetName*
+  commentId: Overload:IbrahKit_CLI.Params.Param.GetName
+  href: IbrahKit_CLI.Params.Param.html#IbrahKit_CLI_Params_Param_GetName_System_Int32_
+  name: GetName
+  nameWithType: Param.GetName
+  fullName: IbrahKit_CLI.Params.Param.GetName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: IbrahKit_CLI.Params.Param.ToString*
+  commentId: Overload:IbrahKit_CLI.Params.Param.ToString
+  href: IbrahKit_CLI.Params.Param.html#IbrahKit_CLI_Params_Param_ToString
+  name: ToString
+  nameWithType: Param.ToString
+  fullName: IbrahKit_CLI.Params.Param.ToString
+- uid: IbrahKit_CLI.Params.Param.TryCompare*
+  commentId: Overload:IbrahKit_CLI.Params.Param.TryCompare
+  href: IbrahKit_CLI.Params.Param.html#IbrahKit_CLI_Params_Param_TryCompare_System_String_System_Int32__System_Int32__
+  name: TryCompare
+  nameWithType: Param.TryCompare
+  fullName: IbrahKit_CLI.Params.Param.TryCompare
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: IbrahKit_CLI.Params.Param.Process*
+  commentId: Overload:IbrahKit_CLI.Params.Param.Process
+  href: IbrahKit_CLI.Params.Param.html#IbrahKit_CLI_Params_Param_Process_System_String___
+  name: Process
+  nameWithType: Param.Process
+  fullName: IbrahKit_CLI.Params.Param.Process
+- uid: IbrahKit_CLI.Params.Param.Pass*
+  commentId: Overload:IbrahKit_CLI.Params.Param.Pass
+  href: IbrahKit_CLI.Params.Param.html#IbrahKit_CLI_Params_Param_Pass__2_System_String___IbrahKit_CLI_Context_
+  name: Pass
+  nameWithType: Param.Pass
+  fullName: IbrahKit_CLI.Params.Param.Pass
+- uid: IbrahKit_CLI.Context
+  commentId: T:IbrahKit_CLI.Context
+  parent: IbrahKit_CLI
+  href: IbrahKit_CLI.Context.html
+  name: Context
+  nameWithType: Context
+  fullName: IbrahKit_CLI.Context
+- uid: IbrahKit_CLI
+  commentId: N:IbrahKit_CLI
+  href: IbrahKit_CLI.html
+  name: IbrahKit_CLI
+  nameWithType: IbrahKit_CLI
+  fullName: IbrahKit_CLI
+- uid: IbrahKit_CLI.Params.Param.GetClosestParam*
+  commentId: Overload:IbrahKit_CLI.Params.Param.GetClosestParam
+  href: IbrahKit_CLI.Params.Param.html#IbrahKit_CLI_Params_Param_GetClosestParam_System_String_System_Collections_Generic_IEnumerable_IbrahKit_CLI_Params_Param__
+  name: GetClosestParam
+  nameWithType: Param.GetClosestParam
+  fullName: IbrahKit_CLI.Params.Param.GetClosestParam
+- uid: System.Collections.Generic.IEnumerable{IbrahKit_CLI.Params.Param}
+  commentId: T:System.Collections.Generic.IEnumerable{IbrahKit_CLI.Params.Param}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Param>
+  nameWithType: IEnumerable<Param>
+  fullName: System.Collections.Generic.IEnumerable<IbrahKit_CLI.Params.Param>
+  nameWithType.vb: IEnumerable(Of Param)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of IbrahKit_CLI.Params.Param)
+  name.vb: IEnumerable(Of Param)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: IbrahKit_CLI.Params.Param
+    name: Param
+    href: IbrahKit_CLI.Params.Param.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: IbrahKit_CLI.Params.Param
+    name: Param
+    href: IbrahKit_CLI.Params.Param.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
