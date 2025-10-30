@@ -8,4 +8,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<PackageId>IbrahKit.CLI</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Ibrahim Oezhan</Authors>
+		<Company>Ibrahim Oezhan</Company>
+		<Description>A CLI Toolkit for .NET Projects.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/IbrahimOezhan/IbrahKit-CLI</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/IbrahimOezhan/IbrahKit-CLI</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
 </Project>
