@@ -1,7 +1,11 @@
 name: Publish NuGet Package
 
+# Your GitHub workflow file under .github/workflows/
+# Trigger the action on push to main
 on:
   push:
+    branches:
+      - master
     tags:
       - 'v*'     # löst aus, wenn du z. B. v1.0.0 pushst
 
