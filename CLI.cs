@@ -72,6 +72,10 @@ namespace IbrahKit_CLI
             {
                 result = cee.Message;
             }
+            catch (ArgumentParsingException ape)
+            {
+                result = ape.Message;
+            }
             catch (Exception e)
             {
                 result = e.ToString();
