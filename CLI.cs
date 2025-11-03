@@ -29,7 +29,7 @@ namespace IbrahKit_CLI
                 }
                 else
                 {
-                    result = command.Parse();
+                    result = Parse(command);
 
                     if (result == CommandBase.ARG_PROCESS_SUCCES)
                     {
@@ -60,6 +60,22 @@ namespace IbrahKit_CLI
             return args;
         }
 
+        private string Parse(CommandBase command)
+        {
+            try
+            {
+                return command.Parse();
+            }
+            catch (ArgumentParsingException ape)
+            {
+                return ape.Message;
+            }
+            catch (Exception e)
+            {
+                return e.ToString();
+            }
+        }
+
         private string Execute(CommandBase command)
         {
             string result;
@@ -71,10 +87,6 @@ namespace IbrahKit_CLI
             catch (CommandExecutionException cee)
             {
                 result = cee.Message;
-            }
-            catch (ArgumentParsingException ape)
-            {
-                result = ape.Message;
             }
             catch (Exception e)
             {
