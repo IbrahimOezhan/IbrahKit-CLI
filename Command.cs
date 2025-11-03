@@ -38,7 +38,7 @@ namespace IbrahKit_CLI
 
             string next = parameters[0];
 
-            List<Argument> arguments = GetData().args;
+            List<Param> arguments = GetData().args;
 
             for (int i = 0; i < arguments.Count; i++)
             {

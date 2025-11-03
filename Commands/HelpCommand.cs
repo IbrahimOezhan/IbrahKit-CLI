@@ -66,7 +66,7 @@ namespace IbrahKit_CLI.Commands
             }
         }
 
-        public override (string, string, List<Argument>) GetData()
+        public override (string, string, List<Param>) GetData()
         {
             return ("help", "returns a list of commands", [
 

@@ -24,7 +24,7 @@ namespace IbrahKit_CLI
         /// Returns command data
         /// </summary>
         /// <returns>Returns name, description and a list of arguments that the command has</returns>
-        public abstract (string name, string desc, List<Argument> args) GetData();
+        public abstract (string name, string desc, List<Param> args) GetData();
 
         /// <summary>
         /// Uses reflection to get the types of all commands
@@ -43,9 +43,9 @@ namespace IbrahKit_CLI
             sb.AppendLine($"\tDescription: {GetData().desc}");
             sb.AppendLine($"\t\tParameters:");
 
-            foreach (var item1 in GetData().args)
+            foreach (var arg in GetData().args)
             {
-                sb.AppendLine($"\t\t\t{item1.ToString()}, ");
+                sb.AppendLine($"\t\t\t{arg.ToString()}, ");
             }
 
             sb.AppendLine();
