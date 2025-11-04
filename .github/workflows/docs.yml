@@ -1,3 +1,5 @@
+name: Create Documentation
+
 # Your GitHub workflow file under .github/workflows/
 # Trigger the action on push to main
 on:
