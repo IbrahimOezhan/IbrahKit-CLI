@@ -140,6 +140,8 @@
                 }
             }
 
+            if (closestIndex == -1) throw new ArgumentException("");
+
             return closest?.GetName(closestIndex) ?? throw new NullReferenceException("");
         }
     }
